@@ -1,0 +1,1 @@
+https://s3.amazonaws.com/metro-extracts.mapzen.com/atlanta_georgia.osm.bz2
