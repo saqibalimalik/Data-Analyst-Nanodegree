@@ -1,0 +1,6 @@
+Resources
+
+1. Udacity Machine Learning mini Projects
+2. Sci-kit documentation
+
+I hereby confirm that this submission is my work. I have cited above the origins of any parts of the submission that were taken from Websites, books, forums, blog posts, github repositories, etc
