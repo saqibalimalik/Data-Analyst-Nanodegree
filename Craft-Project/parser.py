@@ -9,7 +9,7 @@ import pymongo
 import pprint
 
 """
-Your task is to wrangle the data and transform the shape of the data
+We will transform the shape of the data
 into the model as shown below. The output should be a list of dictionaries
 that look like this:
 
@@ -70,4 +70,3 @@ def get_db(db_name):
 if __name__ == "__main__":
     upload_file_data("./data.txt")
 
-    
