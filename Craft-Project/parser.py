@@ -40,6 +40,7 @@ that look like this:
 def upload_file_data(fileName):
 
     db=get_db('intuit')
+    count=0
     with open(fileName, "r") as file:
         for item in ijson.items(file, "item"):
             # 1. lets first split name in first name and last name
@@ -55,8 +56,9 @@ def upload_file_data(fileName):
 
             #4. Insert item to MongoDB
             db.data.save(item)
-            pprint.pprint(item)
-            print '-------------------------------------'
+            count += 1
+            #pprint.pprint(item)
+    print 'Complete: Total %s docs uploaded' %count
 
   
 def get_db(db_name):
